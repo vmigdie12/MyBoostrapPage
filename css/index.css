@@ -1,0 +1,54 @@
+/************************************************************/
+/*         stylesheet for Solo Leveling Page Index.html     */
+/*         Author: Jorge Bech Castillo                      */
+/*         version: 1.0                                     */
+/*         comment: project for Leguajes de Marcas - 1DAM   */
+/************************************************************/
+
+/******************** FONTS ********************/
+@font-face {
+    font-family: "title-solo-leveling";
+    src: url("../fonts/SoloLevelDemo.otf");
+    }
+@font-face {
+    font-family: "text";
+    src: url("../fonts/KdamThmorPro-Regular.ttf");
+    }
+h1 {font-family: "text";
+color: rgb(142, 56, 212);
+
+};
+a {
+    font-family: "title-solo-leveling" !important;
+}
+p{font-family: "text" !important;}
+
+/******************* COLORS ********************/
+.carousel-caption {--bs-bg-opacity: .5;}
+
+/******************* IMAGES ********************/
+#logo {height: 50px;}
+
+#hero {
+    background-image: url(../img/hero.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+/******************* NAVIGATION BAR *****************/
+.navbar-nav .nav-link {
+    transition: color 0.3s ease, text-shadow 0.3s ease; /* Añade transición al color y sombra del texto */
+}
+
+.navbar-nav .nav-link:hover {
+    color: purple; /* Cambia a tu color deseado */
+    text-shadow: 0 0 10px rgb(160, 100, 160); /* Añade una sombra blanca con transparencia */
+}
+
+.bg-dark{
+    background-color: rgb(24, 24, 24) !important;
+}
+
+.medium{
+    color: rgba(255, 255, 255, 0.514);
+}
+
