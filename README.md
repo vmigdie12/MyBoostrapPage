@@ -37,7 +37,7 @@
 
 <h3>Personajes</h3>
 <img src="./bm-readme/personajes.png" alt="imagen de personajes" style="width:50%">
-<p>Para hacer esta disposción he utilizado esta especie de galeria-card</p>
+<p>Para hacer esta disposición he utilizado esta especie de galeria-card</p>
 
 <h3>Mangas</h3>
 <img src="./bm-readme/mangas.png" alt="imagen de Arcos" style="width:50%">
