@@ -21,7 +21,7 @@
 <p>La web está dividida en  6 secciones:</p>
 <ul>
   <li>Hero Section</li>  
-  <li>Introdución</li>
+  <li>Introducción</li>
   <li>Personajes</li>
   <li>Mangas</li>
   <li>Wallpapers</li>
@@ -33,43 +33,37 @@
 
 <h3>Introducción</h3>
 <img src="./bm-readme/introduccion.png" alt="imagen de introduccion" style="width:50%">
-<p>Esta compuesto de un video con el opening mas icónico de la serie y un texto abajo que contiene un pequeño resumen de la serie</p>
+<p>Esta compuesto de una imagen del personaje principal de la serie y un pequeño texto que explica un poco sobre la historia</p>
 
 <h3>Personajes</h3>
 <img src="./bm-readme/personajes.png" alt="imagen de personajes" style="width:50%">
 <p>Para hacer esta disposción he utilizado esta especie de galeria-card</p>
-<p>de la sigiente página: https://freefrontend.com/css-gallery/</p>
 
-<h3>Arcos</h3>
-<img src="./bm-readme/arcos.png" alt="imagen de Arcos" style="width:50%">
-<p>Aquí he utilizado un grid con 3 columnas, cada columna contiene una imagen y un texto</p>
+<h3>Mangas</h3>
+<img src="./bm-readme/mangas.png" alt="imagen de Arcos" style="width:50%">
+
 
 <h3>Wallpapers</h3>
 <img src="./bm-readme/wallpaper.png" alt="imagen de Wallpapers" style="width:50%">
-<p>He tomado este slider de https://www.w3schools.com</p>
 
-<h3>Footer</h3>
-<img src="./bm-readme/footer.png" alt="imagen de Arcos" style="width:50%">
-<p>Contiene 4 columnas: logo,redes sociales,menu simplificado y unos créditos con el disclaimer</p>
+<h3>Contact</h3>
+<img src="./bm-readme/contact.png" alt="imagen de Arcos" style="width:50%">
 
 <h2 id="estilo">Estilo de la página</h2>
 <h3>Paleta de colores</h3>
-<p>He usado distinto tonos rojos ya que son los colores que caracterizan al protagonista</p>
+<p>He usado tonos negros y morados porque son los colores que caracterizan al protagonista</p>
 <h3>Tipografías</h3>
-<p>He usado 2: Una para los títulos(tipografía de One Piece) y otra para el texto normal(llamada animeace)</p>
+<p>He usado 1: KdamThmorPro-Regular</p>
 <p>fuentes obtenidas de:</p>
 <ul>
-  <li>https://fontmeme.com/es/fuente-de-one-piece/</li>
   <li>https://www.1001fonts.com</li>
 </ul>
 <h3>Imágenes</h3>
 <p>Imágenes obteniadas de: https://alphacoders.com</p>
-<h3>Videos</h3>
-<p>Videos obtenidos de: https://www.youtube.com/@onepieceofficial</p>
 <h2 id="snippets">Code snippets</h2>
 <p>He utilizado los siguientes:</p>
 <ul>
-  <li>Disclaimer-modal</li>
-  <li>Slider:tomada de w3Schools</li>
+  <li>Carrousel</li>
+  <li>Slider</li>
   <li>Card-gallery</li>
 </ul>
