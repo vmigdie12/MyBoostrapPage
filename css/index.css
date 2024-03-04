@@ -52,3 +52,11 @@ p{font-family: "text" !important;}
     color: rgba(255, 255, 255, 0.514);
 }
 
+.modal .fade{
+    background-color: black !important;
+}
+
+.visible{
+    display: block !important;
+}
+

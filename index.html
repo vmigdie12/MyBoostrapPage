@@ -272,7 +272,7 @@
                                     <!--Grid column-->
                                     <div class="col-md-6">
                                         <div class="md-form mb-0">
-                                            <input type="text" id="email" name="email" class="form-control">
+                                            <input type="text" id="email" name="email" class="form-control" style="display: block !important">
                                             <label for="email" class="">Your email</label>
                                         </div>
                                     </div>
@@ -302,11 +302,41 @@
                                             <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
                                             <label for="message">Your message</label>
                                         </div>
-            
+                                        <br>
+                                        <div class="md-form align-items-start text-center">
+                                            <input type="checkbox" data-bs-toggle="modal" data-bs-target="#exampleModal" name="terms" id="terms">
+                                            <label>Acepto términos y condiciones</label>
+                                        </div>
+                                        <div style="display: none" class="text-center" id="error-checkbox">
+                                            <br>
+                                            <p style="color: red;">Debes aceptar los terminos y condiciones</p>
+                                        </div>
+                                        <div style="display: none;" class="text-center" id="form-validate">
+                                            <br>
+                                            <p style="color: rgb(2, 116, 12);">El formulario se ha enviado</p>
+                                        </div>
+                                        <br>
                                     </div>
                                 </div>
+                                <!-- Modal -->
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-content modal-dialog" style="background-color: rgb(43, 42, 42) !important;">
+                                            <div class="modal-header" style="background-color: rgb(43, 42, 42) !important;">
+                                            <h5 class="modal-title" id="exampleModalLabel">Términos y condiciones</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body" style="background-color: rgb(43, 42, 42) !important; color: white;">
+                                                This form is provided for educational purposes. The information submitted will be used solely for the stated purposes. We will not share your data with third parties. By submitting this form, you agree to these terms.
+                                            </div>
+                                            <div class="modal-footer" style="background-color: rgb(43, 42, 42) !important;">
+                                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                 <!--Grid row-->
-            
+                                
                             </form>
             
                             <div class="text-center text-md-left">

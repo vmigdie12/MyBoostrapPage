@@ -38,6 +38,19 @@
         } else {
             document.getElementById('message').classList.remove('is-invalid');
         }
+        var selectedOption = document.querySelector('input[name="terms"]:checked');
+        if (!selectedOption) {
+            document.getElementById('error-checkbox').classList.add('visible');
+            isValid = false;
+        }else{
+            document.getElementById('error-checkbox').classList.remove('visible');
+        }
+
+        if (isValid){
+            document.getElementById('form-validate').classList.add('visible');
+        }else{
+            document.getElementById('form-validate').classList.remove('visible');
+        }
 
         return isValid;
     }
